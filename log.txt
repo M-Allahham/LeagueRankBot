@@ -1,0 +1,334 @@
+1/27/2021 4:42:51 AM : Coop System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName)
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture()
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color)
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget()
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice)
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name)
+1/27/2021 5:07:18 AM : Coop System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName)
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture()
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color)
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget()
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice)
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name)
+1/27/2021 8:57:30 AM : Coop System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName)
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture()
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color)
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget()
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice)
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name)
+1/31/2021 10:26:46 PM : Coop System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName)
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture()
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color)
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget()
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice)
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name)
+1/31/2021 10:34:12 PM : Coop System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName)
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture()
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color)
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget()
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice)
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name)
+1/31/2021 11:32:45 PM : Coop System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName)
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture()
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color)
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget()
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice)
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name)
+2/1/2021 1:12:18 AM : Coop Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 179
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 131
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 209
+   at LeagueBot.Game.Entities.ActivePlayer.getManaPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 224
+   at LeagueBot.Coop.CheckBuyItems()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 2:19:50 AM : Coop System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Windows\ApplicationCapture.cs:line 25
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 47
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 53
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 33
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 60
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 3:44:17 AM : Coop Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 179
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 131
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 209
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 219
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 4:58:26 AM : Coop Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 179
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 107
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 3:38:34 PM : Coop Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at LeagueBot.ApiHelpers.GameLCU.IsAllyDead(Int32 id) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 65
+   at LeagueBot.Api.GameApi.isAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 129
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 3:38:57 PM : Coop Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at LeagueBot.ApiHelpers.GameLCU.IsAllyDead(Int32 id) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 65
+   at LeagueBot.Api.GameApi.isAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 129
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 3:40:10 PM : Coop Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at LeagueBot.ApiHelpers.GameLCU.IsAllyDead(Int32 id) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 65
+   at LeagueBot.Api.GameApi.isAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 129
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 3:43:24 PM : Coop Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at LeagueBot.ApiHelpers.GameLCU.IsAllyDead(Int32 id) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 65
+   at LeagueBot.Api.GameApi.isAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 129
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 3:53:06 PM : Coop Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at LeagueBot.ApiHelpers.GameLCU.IsAllyDead(Int32 id) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 65
+   at LeagueBot.Api.GameApi.isAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 129
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 3:54:54 PM : Coop Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at LeagueBot.ApiHelpers.GameLCU.IsAllyDead(Int32 id) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 65
+   at LeagueBot.Api.GameApi.isAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 129
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 4:10:46 PM : Coop Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 187
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 139
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 213
+   at LeagueBot.Game.Entities.ActivePlayer.getManaPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 228
+   at LeagueBot.Coop.CheckBuyItems()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 4:16:34 PM : Coop Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at LeagueBot.ApiHelpers.GameLCU.IsAllyDead(Int32 id) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 65
+   at LeagueBot.Api.GameApi.isAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 129
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 4:17:54 PM : Coop Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at LeagueBot.ApiHelpers.GameLCU.IsAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 65
+   at LeagueBot.Api.GameApi.isAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 129
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 4:39:57 PM : Coop Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at LeagueBot.ApiHelpers.GameLCU.IsAllyDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 93
+   at LeagueBot.Game.Entities.ActivePlayer.followdead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 32
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 6:34:57 PM : Coop Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 118
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.CastAndMove()
+   at LeagueBot.Coop.GameLoop()
+   at LeagueBot.Coop.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
