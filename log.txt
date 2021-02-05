@@ -332,3 +332,1836 @@
    at LeagueBot.Coop.GameLoop()
    at LeagueBot.Coop.Execute()
    at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 7:45:29 PM : Start Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 220
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 230
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 8:19:44 PM : Start Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 220
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 230
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 8:44:02 PM : Start Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 220
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 230
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 9:10:11 PM : Start Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 220
+   at LeagueBot.Game.Entities.ActivePlayer.getManaPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 235
+   at LeagueBot.Start.CheckBuyItems()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 10:42:36 PM : Start Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 140
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/1/2021 11:17:20 PM : Start Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 140
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 12:10:55 AM : Start Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.ApiHelpers.GameLCU.IsPlayerDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 58
+   at LeagueBot.Game.Entities.ActivePlayer.dead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 28
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 12:59:35 AM : Start Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 140
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 1:35:14 AM : Start Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 242
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 252
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 2:12:17 AM : Start Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 242
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 252
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 2:50:47 AM : Start Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.ApiHelpers.GameLCU.IsPlayerDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 58
+   at LeagueBot.Game.Entities.ActivePlayer.dead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 28
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 3:29:18 AM : Start Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 145
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.CastAndMove()
+   at LeagueBot.Start.GameLoop()
+   at LeagueBot.Start.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 4:05:49 AM : Malphite Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 246
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 256
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 4:46:51 AM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 246
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 256
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 5:15:12 AM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 247
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 257
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 1:19:10 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 145
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 1:52:17 PM : Malphite Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 243
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 253
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 3:00:08 PM : Malphite Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 248
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 258
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 4:37:21 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 146
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 4:51:07 PM : Malphite System.Exception: Process  cannot be found.
+   at LeagueBot.Api.BotApi.waitUntilProcessBounds(String processName, Int32 boundsX, Int32 boundsY) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\BotApi.cs:line 51
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 4:57:35 PM : Malphite System.ArgumentException: Requested value 'Ctrl' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at System.Enum.Parse(Type enumType, String value)
+   at LeagueBot.ApiHelpers.InputHelper.PressKey(String key) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\InputHelper.cs:line 42
+   at LeagueBot.Game.Entities.ActivePlayer.upgradeSpell(Int32 indice) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 125
+   at LeagueBot.Game.Entities.ActivePlayer.upgradeSpellOnLevelUp() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 168
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 4:57:47 PM : Malphite System.ArgumentException: Requested value 'Ctrl' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at System.Enum.Parse(Type enumType, String value)
+   at LeagueBot.ApiHelpers.InputHelper.PressKey(String key) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\InputHelper.cs:line 42
+   at LeagueBot.Game.Entities.ActivePlayer.upgradeSpell(Int32 indice) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 125
+   at LeagueBot.Game.Entities.ActivePlayer.upgradeSpellOnLevelUp() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 168
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 5:00:18 PM : Malphite System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Windows\ApplicationCapture.cs:line 25
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 47
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 53
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 77
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 5:10:55 PM : Malphite System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Windows\ApplicationCapture.cs:line 25
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 47
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 53
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 50
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 81
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 5:51:19 PM : Malphite System.ArgumentException: Requested value 'E4' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at System.Enum.Parse(Type enumType, String value)
+   at LeagueBot.ApiHelpers.InputHelper.PressKey(String key) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\InputHelper.cs:line 42
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 95
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 5:51:56 PM : Malphite System.ArgumentException: Requested value 'E4' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at System.Enum.Parse(Type enumType, String value)
+   at LeagueBot.ApiHelpers.InputHelper.PressKey(String key) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\InputHelper.cs:line 42
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 95
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 6:13:06 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 140
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 6:30:45 PM : Malphite Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at LeagueBot.Api.GameApi.getAllyIdToFollow() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 114
+   at LeagueBot.Malphite.OnRevive()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 7:49:52 PM : Malphite Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 312
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 322
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 8:38:33 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerGolds() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 118
+   at LeagueBot.Game.Entities.ActivePlayer.getGolds() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 220
+   at LeagueBot.Malphite.CheckBuyItems()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 9:54:53 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.ApiHelpers.GameLCU.IsPlayerDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 58
+   at LeagueBot.Game.Entities.ActivePlayer.dead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 28
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 10:43:55 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 318
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 328
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/2/2021 11:25:08 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 249
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 1:38:57 AM : Malphite Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 340
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 350
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 1:44:14 AM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 340
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 350
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 1:53:24 AM : Malphite Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 340
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 350
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 9:45:47 AM : Malphite Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 342
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 352
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 9:54:29 AM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 340
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 350
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 10:17:20 AM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 277
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 287
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 10:33:14 AM : Malphite Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 281
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 291
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 11:29:42 AM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 176
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 11:45:58 AM : Malphite Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to 'int' because it is a non-nullable value type
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure , CallSite , Object )
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 65
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 166
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 2:15:32 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 327
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 337
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 3:28:52 PM : Malphite Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at LeagueBot.Api.GameApi.getAllyIdToFollow() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 114
+   at LeagueBot.Malphite.OnRevive()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 4:35:46 PM : Malphite System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Windows\ApplicationCapture.cs:line 25
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 47
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 53
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 50
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 78
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 4:43:45 PM : Malphite System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Windows\ApplicationCapture.cs:line 25
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 47
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 53
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 50
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 79
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 5:03:09 PM : Malphite System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Windows\ApplicationCapture.cs:line 25
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 47
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 53
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 50
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 79
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 5:10:00 PM : Malphite System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Windows\ApplicationCapture.cs:line 25
+   at LeagueBot.ApiHelpers.ScreenHelper.GetCapture() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 47
+   at LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 53
+   at LeagueBot.Game.Entities.ActivePlayer.getNearTarget() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 50
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 79
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 5:23:20 PM : Malphite Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at LeagueBot.Api.GameApi.getAllyIdToFollow() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 114
+   at LeagueBot.Malphite.OnRevive()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 9:35:19 PM : Malphite Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at LeagueBot.Api.GameApi.getAllyIdToFollow() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 114
+   at LeagueBot.Malphite.OnRevive()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 9:50:05 PM : Malphite Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at LeagueBot.Api.GameApi.getAllyIdToFollow() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 114
+   at LeagueBot.Malphite.OnRevive()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 9:52:11 PM : Malphite Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at LeagueBot.Api.GameApi.getAllyIdToFollow() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Api\GameApi.cs:line 114
+   at LeagueBot.Malphite.OnRevive()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/3/2021 10:09:55 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 365
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 12:22:35 AM : Malphite Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 470
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 480
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:03:19 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 201
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:09:11 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 201
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:12:38 AM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetPlayerLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.getLevel() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 368
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:23:11 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:33:24 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:33:57 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:34:31 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:35:14 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:37:11 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:37:28 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:37:55 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:39:02 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:40:21 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 159
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:40:54 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 202
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:42:52 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 208
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:43:32 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 208
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:44:32 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 210
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:46:11 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 210
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:48:34 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 210
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:53:31 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 215
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 1:55:25 AM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Game.Entities.ActivePlayer.tryCastUlt() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 215
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:31:23 PM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 88
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:32:47 PM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 88
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:35:26 PM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 89
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:37:03 PM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 93
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:39:17 PM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 94
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:40:32 PM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 94
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:41:52 PM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 94
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:43:00 PM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 94
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:45:02 PM : Malphite System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at LeagueBot.Game.Entities.ActivePlayer.pokeCombo() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 94
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:54:33 PM : Malphite System.ArgumentOutOfRangeException: The X component must be >= 0 and < width
+Parameter name: x
+   at LeagueBot.Utils.FastBitmap.GetPixelInt(Int32 x, Int32 y) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Utils\FastBitmap.cs:line 310
+   at LeagueBot.ApiHelpers.ScreenHelper.GetAlly(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.AllyGone() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 68
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:56:26 PM : Malphite System.ArgumentOutOfRangeException: The X component must be >= 0 and < width
+Parameter name: x
+   at LeagueBot.Utils.FastBitmap.GetPixelInt(Int32 x, Int32 y) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Utils\FastBitmap.cs:line 310
+   at LeagueBot.ApiHelpers.ScreenHelper.GetAlly(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.AllyGone() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 68
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:57:32 PM : Malphite System.ArgumentOutOfRangeException: The X component must be >= 0 and < width
+Parameter name: x
+   at LeagueBot.Utils.FastBitmap.GetPixelInt(Int32 x, Int32 y) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Utils\FastBitmap.cs:line 310
+   at LeagueBot.ApiHelpers.ScreenHelper.GetAlly(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.AllyGone() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 69
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 3:58:52 PM : Malphite System.ArgumentOutOfRangeException: The X component must be >= 0 and < width
+Parameter name: x
+   at LeagueBot.Utils.FastBitmap.GetPixelInt(Int32 x, Int32 y) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Utils\FastBitmap.cs:line 310
+   at LeagueBot.ApiHelpers.ScreenHelper.GetAlly(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 63
+   at LeagueBot.Game.Entities.ActivePlayer.AllyGone() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 69
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 4:01:17 PM : Malphite System.ArgumentOutOfRangeException: The X component must be >= 0 and < width
+Parameter name: x
+   at LeagueBot.Utils.FastBitmap.GetPixelInt(Int32 x, Int32 y) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Utils\FastBitmap.cs:line 310
+   at LeagueBot.ApiHelpers.ScreenHelper.GetAlly(Color color) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\ApiHelpers\ImageHelper.cs:line 64
+   at LeagueBot.Game.Entities.ActivePlayer.AllyGone() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 69
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 4:30:26 PM : Malphite Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.Game.Entities.ActivePlayer.getStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 372
+   at LeagueBot.Game.Entities.ActivePlayer.getHealthPercent() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 382
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.CastAndMove()
+   at LeagueBot.Malphite.GameLoop()
+   at LeagueBot.Malphite.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 10:37:44 PM : GameOn Leaf.xNet.HttpException: Unable to connect to the HTTP-server '127.0.0.1'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:2999
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at Leaf.xNet.HttpRequest.<>c__DisplayClass291_0.<CreateTcpConnection>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at Leaf.xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at Leaf.xNet.HttpRequest.CreateConnection(Uri address)
+   at Leaf.xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.ApiHelpers.GameLCU.IsPlayerDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 58
+   at LeagueBot.Game.Entities.ActivePlayer.dead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 29
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
+2/4/2021 11:40:16 PM : GameOn Leaf.xNet.HttpException: Received empty response from the HTTP-server '127.0.0.1'.
+   at Leaf.xNet.HttpResponse.ReceiveStartingLine()
+   at Leaf.xNet.HttpResponse.LoadResponse(HttpMethod method, Boolean trackMiddleHeaders)
+   at Leaf.xNet.HttpRequest.ReceiveResponseHeaders(HttpMethod method)
+   at Leaf.xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at Leaf.xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   at LeagueBot.ApiHelpers.GameLCU.HttpGetString(String url) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 180
+   at LeagueBot.ApiHelpers.GameLCU.GetStats() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 132
+   at LeagueBot.ApiHelpers.GameLCU.IsPlayerDead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\LCU\GameLCU.cs:line 58
+   at LeagueBot.Game.Entities.ActivePlayer.dead() in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Game\Entities\ActivePlayer.cs:line 29
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.CastAndMove()
+   at LeagueBot.GameOn.GameLoop()
+   at LeagueBot.GameOn.Execute()
+   at LeagueBot.Patterns.PatternsManager.Execute(String name) in C:\Users\malik\Downloads\League-of-Legends-Bot-master\Sources\LeagueBot\LeagueBot\Patterns\PatternsManager.cs:line 91
