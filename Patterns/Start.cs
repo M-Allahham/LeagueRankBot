@@ -9,15 +9,6 @@ namespace LeagueBot
 {
     public class Start : PatternScript
     {
-        private static ChampionEnum[] Champions = new ChampionEnum[]
-        {
-            ChampionEnum.Annie,
-        };
-		
-		private static ChampionEnum[] Bans = new ChampionEnum[]
-        {
-            ChampionEnum.Veigar,
-        };
 
         private static QueueEnum QueueType = QueueEnum.Ranked;
 
@@ -113,61 +104,10 @@ namespace LeagueBot
 
             bot.wait(30000);
 
-            bool banned = false;
-			
-			bool picked = false;
-
-            int championIndex = 0;
-
-            while (!banned)
-            {
-                ChampionPickResult pickResult = client.pickChampion(Bans[championIndex]);
-
-                switch (pickResult)
-                {
-                    case ChampionPickResult.Ok:
-                        bot.log(Bans[championIndex] + " banned successfully");
-                        banned = true;
-                        break;
-                    case ChampionPickResult.ChampionNotOwned:
-                        bot.warn("Error the request champion is not owned.");
-                        break;
-                    case ChampionPickResult.ChampionPicked:
-                        bot.warn("Someone already pick your champion");
-                        break;
-                    default:
-                        break;
-                }
-                bot.wait(1000);
-            }
-			
-			while (!picked)
-            {
-                ChampionPickResult pickResult = client.pickChampion(Champions[championIndex]);
-
-                switch (pickResult)
-                {
-                    case ChampionPickResult.Ok:
-                        bot.log(Champions[championIndex] + " picked successfully");
-                        picked = true;
-                        break;
-                    case ChampionPickResult.ChampionNotOwned:
-                        bot.warn("Error the request champion is not owned.");
-                        break;
-                    case ChampionPickResult.ChampionPicked:
-                        bot.warn("Someone already pick your champion");
-                        break;
-                    default:
-                        break;
-                }
-
-                bot.wait(1000);
-            }
-
-            bot.log("Waiting....");
+			client.Ban();
 
             GameflowPhaseEnum currentPhase = client.getGameflowPhase();
-
+			
             while (currentPhase != GameflowPhaseEnum.InProgress)
             {
                 if (currentPhase != GameflowPhaseEnum.ChampSelect)
@@ -176,6 +116,8 @@ namespace LeagueBot
                     ProcessMatch();
                     return;
                 }
+                bot.wait(1000);
+				client.LockIn();
                 bot.wait(1000);
                 currentPhase = client.getGameflowPhase();
 				bot.log(client.getGameflowPhase());

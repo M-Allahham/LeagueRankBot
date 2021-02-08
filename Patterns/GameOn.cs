@@ -13,7 +13,7 @@ namespace LeagueBot
 {
     public class GameOn : PatternScript
     {
-		string ally = "F5";
+		int ally = 5;
 		
 		int level = 1;
 		
@@ -24,7 +24,7 @@ namespace LeagueBot
             get;
             set;
         }
-        private int AllyIndex
+        private int AllyIndex 
         {
             get;
             set;
@@ -36,7 +36,8 @@ namespace LeagueBot
 			new Item("Health pot",50),
 			new Item("Health pot",50),
 			new Item("Sweep",0),
-			new Item("Sorcerer",1100), // Item
+			new Item("boots", 300),
+			new Item("Sorcerer",800), // Item
 			new Item("Amplifying",435),
 			new Item("Amplifying",435),
 			new Item("Sapphire",350),
@@ -218,7 +219,7 @@ namespace LeagueBot
                 {
 					bot.log("Recalling!");
 					if(game.getSide() == SideEnum.Blue){
-						game.camera.lockAlly("F1");
+						game.camera.lockAlly(1);
 						game.player.click(0, 740);
 						if (game.player.dead()){
 							BuyItems();
@@ -282,7 +283,7 @@ namespace LeagueBot
 						game.camera.lockAlly(ally);
 					}
 					if(game.getSide() == SideEnum.Red){
-						game.camera.lockAlly("F1");
+						game.camera.lockAlly(1);
 						game.player.click(1700, 0);
 						if (game.player.dead()){
 							BuyItems();
@@ -348,17 +349,13 @@ namespace LeagueBot
                     game.player.recall();
                     bot.wait(8500);
 					isRecalling = false;
-
+					
+					BuyItems();
+					
 					if(game.player.getHealthPercent() < 1 || game.player.getManaPercent() < 1){
 						bot.log("Waiting to regen");
-						bot.wait(6000);
+						bot.wait(3000);
 					}
-
-                    if (game.player.getManaPercent() == 1)
-                    {
-                        OnSpawnJoin();
-                        isRecalling = false;
-                    }
                     continue;
                 }
 				
@@ -390,44 +387,52 @@ namespace LeagueBot
         private void OnSpawnJoin()
         {
             BuyItems();
-			game.camera.lockAlly("F1");
+			game.camera.lockAlly(1);
             game.camera.lockAlly(ally);
 			isRecalling = false;
         }
         private void OnRevive()
         {
+			BuyItems();
             AllyIndex = game.getAllyIdToFollow();
+			game.camera.lockAlly(1);
             game.camera.lockAlly(ally);
 			isRecalling = false;
         }
 
         private void CastAndMove() // Replace this by Champion pattern script.
         {
+			ally = game.getAllyIdToFollow();
 			game.camera.lockAlly(ally);
-			game.moveCenterScreenBlue();
-			game.moveCenterScreenBlue();
-			if(game.player.AllyGone() == true) {
-				if(game.player.AllyGone() == true) {
-					if(game.player.AllyGone() == true) {
-						isRecalling = true;
-						GameLoop();
-					} 
-				}
+			if(game.getSide() == SideEnum.Red){
+				game.moveCenterScreenRed();
+			} else {
+				game.moveCenterScreenBlue();
+			}
+			if(game.getSide() == SideEnum.Red){
+				game.moveCenterScreenRed();
+			} else {
+				game.moveCenterScreenBlue();
+			}
+			if(game.player.AllyDead(ally)) {
+				isRecalling = true;
+				GameLoop();
 			}
 			else 
 			{
-				game.player.shieldSpam();
+				if(level > 2)
+					game.player.shieldSpam(ally);
 				if (game.player.getHealthPercent() <= 0.65d){
-					//game.player.tryCastSpellOnTarget(6);
+					game.player.Potion();
 				}
 				if (level > 5 )
 				{
-					game.camera.lockAlly("F5");
+					game.camera.lockAlly(ally);
 					game.player.tryCastUlt();
 				}
 				else
 				{
-					game.camera.lockAlly("F5");
+					game.camera.lockAlly(ally);
 					game.player.pokeCombo();
 				} 
 			}
