@@ -195,7 +195,7 @@ namespace LeagueBot
         {
             level = game.player.getLevel();
 
-            bool dead = false;
+            //bool dead = false;
 
             while (bot.isProcessOpen(Constants.GameProcessName))
             {

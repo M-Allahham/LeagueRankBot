@@ -124,6 +124,7 @@ namespace LeagueBot
             }
 
             bot.executePattern("GameOn");
+			bot.log("\n");
         }
     }
 }
