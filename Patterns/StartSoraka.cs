@@ -42,6 +42,7 @@ namespace LeagueBot
             bot.wait(3000);
 
 			while(client.AcceptInvite() == false){
+				bot.log("Accepting...");
 				client.AcceptInvite();
 			}
 			
