@@ -214,6 +214,7 @@ namespace LeagueBot
 				if (game.player.dead())
 				{
 					Death();
+					BuyItems();
 					continue;
 				}
                
@@ -221,6 +222,7 @@ namespace LeagueBot
                 {
 					bot.log("Low health");
 					Retreat();
+					BuyItems();
                     continue;
                 }
 
@@ -228,6 +230,7 @@ namespace LeagueBot
                 {
 					bot.log("Low mana");
 					Retreat();
+					BuyItems();
                     continue;
 				}
 
