@@ -45,8 +45,8 @@ namespace LeagueBot
 			bot.wait(3000);
             client.pickRoles();
 
-			client.Invite();
-			bot.wait(60000);
+			//client.Invite();
+			//bot.wait(60000);
 
             ProcessMatch();
         
