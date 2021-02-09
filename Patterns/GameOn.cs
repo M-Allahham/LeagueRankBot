@@ -16,19 +16,8 @@ namespace LeagueBot
 		int ally = 5;
 		
 		int level = 1;
-		
-		bool isRecalling = false;
 
-        private Point CastTargetPoint
-        {
-            get;
-            set;
-        }
-        private int AllyIndex 
-        {
-            get;
-            set;
-        }
+		bool isBlueSide = true;
 
         private Item[] Items = new Item[]
         {
@@ -67,14 +56,6 @@ namespace LeagueBot
 			new Item("Elixir of Sorcery",500),
         };
 
-        public override bool ThrowException
-        {
-            get
-            {
-                return false;
-            }
-        }
-
         public override void Execute()
         {
             bot.log("Waiting for league of legends process...");
@@ -82,8 +63,6 @@ namespace LeagueBot
             bot.waitProcessOpen(Constants.GameProcessName);
 			bot.log("Found process");
 			
-            //bot.waitUntilProcessBounds(Constants.GameProcessName, 1030, 770);
-			bot.log("Nvrmind");
 			
             bot.wait(200);
 
@@ -101,79 +80,118 @@ namespace LeagueBot
 
             bot.wait(3000);
 
-            if (game.getSide() == SideEnum.Blue)
-            {
-                CastTargetPoint = new Point(1084, 398);
-                bot.log("We are blue side !");
-            }
-            else
-            {
-                CastTargetPoint = new Point(644, 761);
-                bot.log("We are red side !");
-            }
+			isBlueSide = (game.getSide() == SideEnum.Blue);
+			
+			if(isBlueSide)
+				bot.log("Blue side");
+			else
+				bot.log("Red side");
 
-            game.player.upgradeSpellOnLevelUp();
-
-            OnSpawnJoin();
+			game.player.upgradeSpellOnLevelUp();
 
             bot.log("Playing...");
 
-            GameLoop();
+			BuyItems();
+			GameLoop();
 			
 			End();
         }
+
         private void BuyItems()
         {
-			isRecalling = false;
-            int golds = game.player.getGolds();
+			if (game.player.shopAvailable() || game.player.dead())
+			{
+				int golds = game.player.getGolds();
 
-            game.shop.toggle();
-            bot.wait(500);
-            foreach (Item item in Items)
-            {
-                if (item.Cost > golds)
-                {
-                    break;
-                }
-                if (!item.Buyed)
-                {
-                    game.shop.searchItem(item.Name);
-					bot.wait(500);
-                    game.shop.buySearchedItem();
-					bot.wait(500);
-                    item.Buyed = true;
-					isRecalling = false;
-                    golds -= item.Cost;
-                }
-            }
+				game.shop.toggle();
+				bot.wait(500);
+				foreach (Item item in Items)
+				{
+					if (item.Cost > golds)
+					{
+						break;
+					}
+					if (!item.Buyed)
+					{
+						game.shop.searchItem(item.Name);
+						bot.wait(500);
+						game.shop.buySearchedItem();
+						bot.wait(500);
+						item.Buyed = true;
+						golds -= item.Cost;
+					}
+				}
 
-            game.shop.toggle();
-			bot.wait(500);
-
-        }
-        private void CheckBuyItems()
-        {
-            int golds = game.player.getGolds();
-
-            foreach (Item item in Items)
-            {
-                if (item.Cost > golds)
-                {
-                    break;
-                }
-                if (golds > 150000)
-               {
-                    game.player.recall();
-					isRecalling = false;
-                    bot.wait(10000);
-					game.camera.lockAlly(ally);
-                }
-            }
-
-
+				game.shop.toggle();
+				bot.wait(500);
+			}
         }
 
-        private void GameLoop()
+		private void Recall()
+		{
+			if (game.player.getNearTarget() != null)
+			{
+				Retreat();
+				return;
+			}
+			game.camera.lockAlly(1);
+			ally = 1;
+			double currHealth = game.player.getHealthPercent();
+			game.player.recall();
+			DateTime start = DateTime.Now;
+			while ((DateTime.Now - start).TotalMilliseconds < 8100)
+			{
+				bot.wait(100);
+				if (game.player.dead())
+				{
+					Death();
+					return;
+				}
+				game.player.pauseCheck(1);
+				if (game.player.getHealthPercent() < currHealth)
+				{
+					bot.log("Recall was interupted! (ms=" + (DateTime.Now - start).TotalMilliseconds + ")");
+					Retreat();
+					return;
+				}
+			}
+			BuyItems();
+			if (game.player.getHealthPercent() < 1)
+				while (game.player.getHealthPercent() < 1 || game.player.getManaPercent() < 1)
+				{
+					game.player.pauseCheck(ally);
+					bot.wait(100);
+				}
+		}
+
+		private void Retreat()
+		{
+			bot.log("Retreating!");
+			game.camera.lockAlly(1);
+			ally = 1;
+			double currHealth = game.player.getHealthPercent();
+			DateTime start = DateTime.Now;
+			while ((DateTime.Now - start).TotalMilliseconds < 3000)	
+			{
+				game.player.pauseCheck(1);
+				game.player.retreatClick(isBlueSide);
+				if (game.player.dead())
+				{
+					bot.log("Retreat failed due to death. (ms=" + (DateTime.Now - start).TotalMilliseconds + ")");
+					Death();
+					return;
+				}
+				if (game.player.getHealthPercent() < currHealth || game.player.getNearTarget() != null)
+				{
+					currHealth = game.player.getHealthPercent();
+					start = DateTime.Now;
+				}
+			}
+			Recall();
+			BuyItems();
+		}
+
+		private void GameLoop()
         {
             level = game.player.getLevel();
 
@@ -181,195 +199,35 @@ namespace LeagueBot
 
             while (bot.isProcessOpen(Constants.GameProcessName))
             {
-                bot.bringProcessToFront(Constants.GameProcessName);
 
-                bot.centerProcess(Constants.GameProcessName);
+				bot.bringProcessToFront(Constants.GameProcessName);
+				bot.centerProcess(Constants.GameProcessName);
 
-                int newLevel = game.player.getLevel();
+				game.player.pauseCheck(ally);
 				
-                if (newLevel != level)
+                if (game.player.getLevel() != level)
                 {
-                    level = newLevel;
-                    game.player.upgradeSpellOnLevelUp();
-                }		
-				
-                if (game.player.dead())
-                {
-                    if (!dead)
-                    {
-                        dead = true;
-                        OnDie();
-                        isRecalling = false;
-                    }
-
-                    bot.wait(4000);
-                    continue;
+					level = game.player.getLevel();
+					game.player.upgradeSpellOnLevelUp();
                 }
 
-                if (dead)
-                {
-					bot.log("We died");
-                    dead = false;
-					isRecalling = false;
-                    OnRevive();
-                    continue;
-                }
-
-                if (isRecalling)
-                {
-					bot.log("Recalling!");
-					if(game.getSide() == SideEnum.Blue){
-						game.camera.lockAlly(1);
-						game.player.click(0, 740);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.player.click(0, 740);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.player.click(0, 740);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.player.click(0, 740);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.player.click(0, 740);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.camera.lockAlly(ally);
-					}
-					if(game.getSide() == SideEnum.Red){
-						game.camera.lockAlly(1);
-						game.player.click(1700, 0);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.player.click(1700, 0);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.player.click(1700, 0);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.player.click(1700, 0);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.player.click(1700, 0);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						bot.wait(1000);
-						if (game.player.dead()){
-							BuyItems();
-							GameLoop();
-							isRecalling = false;
-						}
-						game.camera.lockAlly(ally);
-					}
-                    game.player.recall();
-                    bot.wait(8500);
-					isRecalling = false;
-					
-					BuyItems();
-					
-					if(game.player.getHealthPercent() < 1 || game.player.getManaPercent() < 1){
-						bot.log("Waiting to regen");
-						bot.wait(3000);
-					}
-                    continue;
-                }
-				
+				if (game.player.dead())
+				{
+					Death();
+					continue;
+				}
+               
 				if (game.player.getHealthPercent() <= 0.4d)
                 {
 					bot.log("Low health");
-                    isRecalling = true;
+					Retreat();
                     continue;
                 }
 
 				if (game.player.getManaPercent() <= 0.10d)
                 {
 					bot.log("Low mana");
-                    isRecalling = true;
+					Retreat();
                     continue;
 				}
 
@@ -378,45 +236,40 @@ namespace LeagueBot
             }
 			bot.log("Game process not found");
         }
-        private void OnDie()
-        {
-            BuyItems();
-			isRecalling = false;
-        }
-		
-        private void OnSpawnJoin()
-        {
-            BuyItems();
-			game.camera.lockAlly(1);
-            game.camera.lockAlly(ally);
-			isRecalling = false;
-        }
-        private void OnRevive()
-        {
+
+		private void Death()
+		{
+			bot.log("You died.");
 			BuyItems();
-            AllyIndex = game.getAllyIdToFollow();
-			game.camera.lockAlly(1);
-            game.camera.lockAlly(ally);
-			isRecalling = false;
-        }
+			while (game.player.dead())
+			{
+				game.player.pauseCheck(1);
+				bot.wait(100);
+			}
+			bot.log("You respawned.");
+		}
 
         private void CastAndMove() // Replace this by Champion pattern script.
         {
 			ally = game.getAllyIdToFollow();
 			game.camera.lockAlly(ally);
-			if(game.getSide() == SideEnum.Red){
-				game.moveCenterScreenRed();
-			} else {
+			if(isBlueSide){
+				game.moveCenterScreenBlue();
 				game.moveCenterScreenBlue();
 			}
-			if(game.getSide() == SideEnum.Red){
+			else {
 				game.moveCenterScreenRed();
-			} else {
-				game.moveCenterScreenBlue();
+				game.moveCenterScreenRed();
 			}
+
 			if(game.player.AllyDead(ally)) {
-				isRecalling = true;
-				GameLoop();
+				if(game.player.GameTime() > 14 * 60){
+					ally = game.getAllyIdToFollow();
+					game.camera.lockAlly(ally);
+				} else {
+					Retreat();
+					return;
+				}
 			}
 			else 
 			{
@@ -427,16 +280,13 @@ namespace LeagueBot
 				}
 				if (level > 5 )
 				{
-					game.camera.lockAlly(ally);
 					game.player.tryCastUlt();
 				}
 				else
 				{
-					game.camera.lockAlly(ally);
 					game.player.pokeCombo();
 				} 
 			}
-			isRecalling = false;
         }
 		
 		public override void End()
