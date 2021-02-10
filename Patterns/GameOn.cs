@@ -195,8 +195,6 @@ namespace LeagueBot
         {
             level = game.player.getLevel();
 
-            //bool dead = false;
-
             while (bot.isProcessOpen(Constants.GameProcessName))
             {
 
@@ -270,7 +268,7 @@ namespace LeagueBot
 					ally = game.getAllyIdToFollow();
 					game.camera.lockAlly(ally);
 				} else {
-					Retreat();
+					Retreat();	
 					return;
 				}
 			}
