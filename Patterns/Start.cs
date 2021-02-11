@@ -122,12 +122,18 @@ namespace LeagueBot
                 currentPhase = client.getGameflowPhase();
 				//bot.log(client.getGameflowPhase());
             }
+			bot.log("Matchmaking finished");
 			bot.wait(2000);
             bot.executePattern("GameOn");
 			bot.wait(2000);
 			bot.log("\n");
 			bot.wait(2000);
 			bot.log("\n");
+			bot.wait(2000);
+			bot.log("\n");
+			bot.wait(2000);
+			bot.log("\n");
+
 		}
     }
 }
