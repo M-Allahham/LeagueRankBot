@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Drawing;
 using LeagueBot.Patterns;
@@ -10,7 +11,7 @@ namespace LeagueBot
     public class Start : PatternScript
     {
 
-        private static QueueEnum QueueType = QueueEnum.Ranked;
+        private static QueueEnum QueueType = QueueEnum.Blind;
 
         
         public override void Execute()
@@ -41,15 +42,30 @@ namespace LeagueBot
 
             bot.wait(3000);
 
+			client.deleteLobby();
+			bot.wait(3000);
+
             client.createLobby(QueueType);
 			bot.wait(3000);
             client.pickRoles();
 
-			//client.Invite();
-			//bot.wait(60000);
+			client.Invite(2657872626108352);
+			bot.wait(1000);
+			client.Invite(2640419883607424);
+			bot.wait(1000);
+			client.Invite(103380416);
+			bot.wait(15000);
 
             ProcessMatch();
-        
+
+			bot.wait(2000);
+			bot.log("\n");
+			bot.wait(2000);
+			bot.log("\n");
+			bot.wait(2000);
+			bot.log("\n");
+			bot.wait(2000);
+			bot.log("\n");
 
         }
         private void ProcessMatch()
@@ -102,13 +118,16 @@ namespace LeagueBot
 
             bot.log("Match founded.");
 
-            bot.wait(30000);
+            //bot.wait(30000);
 
-			client.Ban();
+			//client.Ban();
 
             GameflowPhaseEnum currentPhase = client.getGameflowPhase();
+
+            int i = 0;
+			int mslimit = 290000;
 			
-            while (currentPhase != GameflowPhaseEnum.InProgress)
+            while (currentPhase != GameflowPhaseEnum.InProgress && i < mslimit)
             {
                 if (currentPhase != GameflowPhaseEnum.ChampSelect)
                 {
@@ -120,8 +139,9 @@ namespace LeagueBot
 				client.LockIn();
                 bot.wait(1000);
                 currentPhase = client.getGameflowPhase();
-				//bot.log(client.getGameflowPhase());
+                i++;
             }
+
 			bot.log("Matchmaking finished");
 			bot.wait(2000);
             bot.executePattern("GameOn");
