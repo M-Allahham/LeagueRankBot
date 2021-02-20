@@ -40,8 +40,9 @@ namespace LeagueBot
 
             bot.log("Summoner loaded "+ client.summoner.displayName);
 
-            bot.wait(3000);
-
+            bot.wait(5000);
+ 		client.createLobby(QueueType);
+			bot.wait(10000);
 			client.deleteLobby();
 			bot.wait(3000);
 
@@ -54,7 +55,9 @@ namespace LeagueBot
 			client.Invite(2640419883607424);
 			bot.wait(1000);
 			client.Invite(103380416);
-			bot.wait(15000);
+			bot.wait(1000);
+client.Invite(2661093032166496);
+bot.wait(15000);
 
             ProcessMatch();
 
@@ -125,7 +128,7 @@ namespace LeagueBot
             GameflowPhaseEnum currentPhase = client.getGameflowPhase();
 
             int i = 0;
-			int mslimit = 290000;
+			int mslimit = 40;
 			
             while (currentPhase != GameflowPhaseEnum.InProgress && i < mslimit)
             {
@@ -135,9 +138,9 @@ namespace LeagueBot
                     ProcessMatch();
                     return;
                 }
-                bot.wait(1000);
+                bot.wait(100);
 				client.LockIn();
-                bot.wait(1000);
+                bot.wait(100);
                 currentPhase = client.getGameflowPhase();
                 i++;
             }

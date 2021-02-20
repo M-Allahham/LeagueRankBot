@@ -31,8 +31,9 @@ namespace LeagueBot
 			new Item("Amplifying",435),
 			new Item("Sapphire",350),
 			new Item("Lost ch",80),
-			new Item("Blasting",850),
-			new Item("Luden",1250), // Item
+			new Item("Amplifying",435),
+			new Item("Fiendis",465),
+			new Item("Liand",1200), // Item
 			new Item("Amplifying",435),	
 			new Item("Amplifying",435),
 			new Item("Hextech Alt",180),
@@ -292,7 +293,7 @@ namespace LeagueBot
 		
 		public override void End()
         {
-            bot.executePattern("End");
+            bot.executePattern("EndCoop");
             base.End();
         }
     }

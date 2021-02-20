@@ -12,13 +12,13 @@ namespace LeagueBot
     {
         private static ChampionEnum[] Champions = new ChampionEnum[]
         {
-			ChampionEnum.Veigar,
+			ChampionEnum.Annie,
             ChampionEnum.Caitlyn,
             ChampionEnum.MissFortune,
             
         };
 
-        private static QueueEnum QueueType = (QueueEnum)420;
+        private static QueueEnum QueueType = QueueEnum.Blind;
 
         
         public override void Execute()
@@ -47,9 +47,28 @@ namespace LeagueBot
 
             bot.log("Summoner loaded "+ client.summoner.displayName);
 
-            bot.wait(3000);
-
+            bot.wait(5000);
+bot.log("Creating lobby");
+ 		client.createLobby(QueueType);
+			bot.wait(15000);
+bot.log("Deleting lobby");
+			client.deleteLobby();
+			bot.wait(3000);
+bot.log("Creating new lobby");
             client.createLobby(QueueType);
+			bot.wait(3000);
+            client.pickRoles();
+
+			client.Invite(2657872626108352);
+			bot.wait(1000);
+			client.Invite(2640419883607424);
+			bot.wait(1000);
+			client.Invite(103380416);
+			bot.wait(1000);
+client.Invite(2661093032166496);
+bot.wait(1000);
+client.Invite(112910661);
+bot.wait(15000);
 
             ProcessMatch();
         
@@ -157,7 +176,7 @@ namespace LeagueBot
                 currentPhase = client.getGameflowPhase();
             }
 
-            bot.executePattern("Coop");
+            bot.executePattern("GameOn");
         }
     }
 }
