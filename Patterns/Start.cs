@@ -40,9 +40,8 @@ namespace LeagueBot
 
             bot.log("Summoner loaded "+ client.summoner.displayName);
 
-            bot.wait(5000);
- 		client.createLobby(QueueType);
-			bot.wait(10000);
+            bot.wait(10000);
+
 			client.deleteLobby();
 			bot.wait(3000);
 
@@ -55,9 +54,7 @@ namespace LeagueBot
 			client.Invite(2640419883607424);
 			bot.wait(1000);
 			client.Invite(103380416);
-			bot.wait(1000);
-client.Invite(2661093032166496);
-bot.wait(15000);
+			bot.wait(15000);
 
             ProcessMatch();
 
@@ -109,7 +106,6 @@ bot.wait(15000);
             {
                 isMatchFound = client.isMatchFound();
                 bot.wait(1000);
-
             }
 
             while (client.getGameflowPhase() != GameflowPhaseEnum.ChampSelect)
@@ -119,7 +115,7 @@ bot.wait(15000);
             }
 
 
-            bot.log("Match founded.");
+            bot.log("Match found.");
 
             //bot.wait(30000);
 
