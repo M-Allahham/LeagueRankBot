@@ -26,22 +26,23 @@ namespace LeagueBot
 			new Item("Health pot",50),
 			new Item("Sweep",0),
 			new Item("boots", 300),
-			new Item("Sorcerer",800), // Item
+			new Item("Ioni",600), // Item
 			new Item("Amplifying",435),
 			new Item("Amplifying",435),
 			new Item("Sapphire",350),
 			new Item("Lost ch",80),
-			new Item("Blasting",850),
-			new Item("Luden",1250), // Item
+			new Item("Amplifying",435),
+			new Item("Fiend",465),
+			new Item("Lian",1250), // Item
 			new Item("Amplifying",435),	
-			new Item("Amplifying",435),
-			new Item("Hextech Alt",180),
-			new Item("Needless",1250),
-			new Item("Horizon",700), // Item
-			new Item("Amplifying",435),
-			new Item("Blighting",815),
+			new Item("Ruby",400),
+			new Item("Gian",500),
 			new Item("Blasting",850),
-			new Item("Void S",400),	// Item
+			new Item("Ryla",815), // Item
+			new Item("Ruby",400),
+			new Item("Gian",500),
+			new Item("Blasting",850),
+			new Item("Demon",1250),	// Item
 			new Item("Needless",1250),
 			new Item("Rabadon",2350), // Item
 			new Item("Elixir of Sorcery",500),
