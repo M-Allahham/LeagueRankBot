@@ -168,7 +168,9 @@ ChampionSpells = {
 	],
     #fiddlesticks
     #fiora
+    "fiora": [
         Spell("fioraw",                 [],                         SFlag.SkillshotLine)
+    ],
     #fizz
     "fizz": [
 		Spell("fizzr",                  ["fizzrmissile"],                          SFlag.Line | SFlag.CollideChampion | SFlag.CollideWindwall)
@@ -298,7 +300,7 @@ ChampionSpells = {
     #lucian
     "lucian": [
         Spell("lucianq",                ["lucianq"],                          SFlag.SkillshotLine, delay=0.4),
-		Spell("lucianw",                ["lucianwmissile"],                          SFlag.SkillshotLine)
+		Spell("lucianw",                ["lucianwmissile"],                          SFlag.SkillshotLine),
 		Spell("lucianr",                ["lucianrmissile", "lucianrmissileoffhand"], SFlag.SkillshotLine)
 	],
     #lulu
@@ -526,13 +528,13 @@ ChampionSpells = {
     #zed
     "zed": [
 		Spell("zedq",       ["zedqmissile"],                          SFlag.Line)
-	]
+	],
     #ziggs
     "ziggs": [                          
 		Spell("ziggsq",                 ["ziggsqspell", "ziggsqspell2", "ziggsqspell3"],                              SFlag.Area | SFlag.CollideWindwall),
 		Spell("ziggsw",                 ["ziggsw"],                                                                   SFlag.Area | SFlag.CollideWindwall),
 		Spell("ziggse",                 ["ziggse2"],                                                                  SFlag.Area | SFlag.CollideWindwall),
-		Spell("ziggsr",                 ["ziggsrboom", "ziggsrboommedium", "ziggsrboomlong", "ziggsrboomextralong"],  SFlag.Area),
+		Spell("ziggsr",                 ["ziggsrboom", "ziggsrboommedium", "ziggsrboomlong", "ziggsrboomextralong"],  SFlag.Area)
 	],
     #zilean
     "zilean": [
@@ -678,4 +680,3 @@ def castpoint_for_collision(game, spell, caster, target):
 		return target.pos.add(target_dir.scale((t_delay + t_missile)*target.movement_speed))
 	else:
 		return target.pos
-		
