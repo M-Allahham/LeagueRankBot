@@ -285,6 +285,12 @@ ChampionSpells = {
 	],
 	"warwick": [
 		Spell("warwickr",               [],                                        SFlag.Area | SFlag.CollideChampion)
+	],
+    "xerath": [
+		Spell("xeratharcanopulse",             ["xeratharcanopulse2"],                       SFlag.SkillshotLine),
+		Spell("xeratharcanebarrage2",            ["xeratharcanebarrage2"],                                        SFlag.Area),
+		Spell("xerathmagespear",           ["xerathmagespearmissile"],                                        SFlag.Area),
+		Spell("xerathrmissilewrapper",           ["xerathlocuspulse"],                                        SFlag.Area),
 	]
 }
 
