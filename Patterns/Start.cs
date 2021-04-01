@@ -11,7 +11,7 @@ namespace LeagueBot
     public class Start : PatternScript
     {
 
-        private static QueueEnum QueueType = QueueEnum.Blind;
+        private static QueueEnum QueueType = QueueEnum.Ranked;
 
         
         public override void Execute()

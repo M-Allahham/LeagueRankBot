@@ -253,6 +253,7 @@ namespace LeagueBot
 
         private void CastAndMove() // Replace this by Champion pattern script.
         {
+			/*
 			ally = game.getAllyIdToFollow();
 			game.camera.lockAlly(ally);
 			if(isBlueSide){
@@ -289,6 +290,7 @@ namespace LeagueBot
 					game.player.pokeCombo();
 				} 
 			}
+			*/
         }
 		
 		public override void End()
