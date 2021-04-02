@@ -70,7 +70,7 @@ namespace LeagueBot
             bot.log("Waiting for game to load.");
 
             bot.bringProcessToFront(Constants.GameProcessName);
-            //bot.centerProcess(Constants.GameProcessName);
+            bot.centerProcess(Constants.GameProcessName);
 
             game.waitUntilGameStart();
 
