@@ -624,27 +624,27 @@
                         },
                         {
                             "name": "evtCastAvatarSpell1",
-                            "value": "[d]"
-                        },
-                        {
-                            "name": "evtCastAvatarSpell2",
-                            "value": "[f]"
-                        },
-                        {
-                            "name": "evtCastSpell1",
-                            "value": "[q]"
-                        },
-                        {
-                            "name": "evtCastSpell2",
-                            "value": "[w]"
-                        },
-                        {
-                            "name": "evtCastSpell3",
                             "value": "[e]"
                         },
                         {
+                            "name": "evtCastAvatarSpell2",
+                            "value": "[5]"
+                        },
+                        {
+                            "name": "evtCastSpell1",
+                            "value": "[1]"
+                        },
+                        {
+                            "name": "evtCastSpell2",
+                            "value": "[2]"
+                        },
+                        {
+                            "name": "evtCastSpell3",
+                            "value": "[3]"
+                        },
+                        {
                             "name": "evtCastSpell4",
-                            "value": "[r]"
+                            "value": "[4]"
                         },
                         {
                             "name": "evtChampMasteryDisplay",

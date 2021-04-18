@@ -18,7 +18,7 @@ namespace LeagueBot
             
         };
 
-        private static QueueEnum QueueType = QueueEnum.Blind;
+        private static QueueEnum QueueType = QueueEnum.Ranked;
 
         
         public override void Execute()
@@ -68,6 +68,10 @@ bot.log("Creating new lobby");
 client.Invite(2661093032166496);
 bot.wait(1000);
 client.Invite(112910661);
+bot.wait(1000);
+client.Invite(2663173708858784);
+bot.wait(1000);
+client.Invite(2665268938016448);
 bot.wait(15000);
 
             ProcessMatch();

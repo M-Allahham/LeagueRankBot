@@ -11,7 +11,7 @@ namespace LeagueBot
     public class Start : PatternScript
     {
 
-        private static QueueEnum QueueType = QueueEnum.Ranked;
+        private static QueueEnum QueueType = QueueEnum.Blind;
 
         
         public override void Execute()
@@ -117,13 +117,14 @@ namespace LeagueBot
 
             bot.log("Match found.");
 
-            bot.wait(30000);
+            //bot.wait(30000);
 
-			client.Ban();
+			//client.Ban();
 
             GameflowPhaseEnum currentPhase = client.getGameflowPhase();
 
             int i = 0;
+			int mslimit = 40;
 			
             while (currentPhase != GameflowPhaseEnum.InProgress && i < mslimit)
             {
@@ -137,6 +138,7 @@ namespace LeagueBot
 				client.LockIn();
                 bot.wait(100);
                 currentPhase = client.getGameflowPhase();
+                i++;
             }
 
 			bot.log("Matchmaking finished");
